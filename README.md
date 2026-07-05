@@ -1,4 +1,4 @@
-# RAG-krish
+# Complete RAG Crash Course With Langchain In 2 Hours - Krish Nayek
 
 Serial notes for understanding two notebooks from Krish Naik's RAG tutorial repository:
 
