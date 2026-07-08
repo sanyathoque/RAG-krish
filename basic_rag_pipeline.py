@@ -193,9 +193,9 @@ def rag_simple(query, retriever, llm, top_k=3):
     results = retriever.retrieve(query, top_k=top_k)
 
     if results:
-    context = "\n\n".join(doc["content"] for doc in results)
+        context = "\n\n".join(doc["content"] for doc in results)
     else:
-    context = ""
+        context = ""
     
     if not context:
         return "No relevant context found to answer the question."
